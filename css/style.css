@@ -1,0 +1,41 @@
+body{
+    font-family:sans-serif;
+}
+.header-area{
+    background-color: #eae6e6;
+    padding:10px 0;
+}
+.nav-area {
+    /* background:#eae6e6; */
+}
+.logo-area h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin:0 0 0 12px;
+    font-family:monospace;
+}
+.active{
+    color:blue !important;
+}
+.logo-area span{
+    color:#5271ff;
+}
+.navbar-nav .nav-link {
+    padding-left:30px !important;
+}
+
+
+.navbar-toggler:focus{
+    box-shadow:0 0 0 0 black;
+}
+.navbar-light .navbar-toggler{
+    border-color: black;;
+}
+@media only screen and (max-width: 992px) {
+   
+    
+
+
+
+
+  }
