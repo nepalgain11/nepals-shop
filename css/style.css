@@ -23,14 +23,33 @@ body{
 .navbar-nav .nav-link {
     padding-left:30px !important;
 }
-
-
 .navbar-toggler:focus{
     box-shadow:0 0 0 0 black;
 }
 .navbar-light .navbar-toggler{
     border-color: black;;
 }
+.c-btn{
+    background-color: #3636e6;
+    color: white;
+    font-size: 13px;
+    padding: 11px 13px;
+    border:none;
+    border-radius: 4px;
+}
+.c-btn:hover{
+    background-color: #FA804C;
+    color:black;
+}
+.card-title{
+    font-weight: 600;
+    color:#000000ab;
+}
+
+
+
+
+
 @media only screen and (max-width: 992px) {
    
     
