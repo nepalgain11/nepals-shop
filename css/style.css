@@ -2,22 +2,24 @@ body{
     font-family:sans-serif;
 }
 .header-area{
-    background-color: #eae6e6;
-    padding:10px 0;
+    padding:40px 0;
 }
 .nav-area {
-    /* background:#eae6e6; */
+   background-color:#f3eeee;
+   
 }
-.logo-area h4{
+.logo-area a h4{
     font-size: 20px;
     font-weight: 600;
     margin:0 0 0 12px;
     font-family:monospace;
+    color:black;
 }
+
 .active{
     color:blue !important;
 }
-.logo-area span{
+.logo-area a span{
     color:#5271ff;
 }
 .navbar-nav .nav-link {
@@ -45,16 +47,98 @@ body{
     font-weight: 600;
     color:#000000ab;
 }
+.border {
+    width:130px;
+    height:4px;
+    background:blue;
+}
+.carousel-container{
+    width:80%;
+    margin:0 auto;
+}
+.carousel-res{
+    bottom:-40px !important;
+}
+.rounded-border{
+    border:4px solid white;
+}
+.card-shadow{
+    box-shadow:0px 0px 6px 4px #0000002b;
+}
+
+.res-padding{
+    padding:0 25px;
+}
 
 
-
-
+/*************** media query area ********************/
 
 @media only screen and (max-width: 992px) {
-   
-    
-
-
-
-
+  .cart-content{
+      text-align: center !important;
   }
+    .res-icon{
+        justify-content: center !important;
+        margin-bottom:35px;
+    }
+    .res-icon img{
+        width:90px !important;
+    }
+    .test-image{
+        justify-content: center !important;
+    }
+    .test-icon{
+        float:none !important;
+        margin:0 auto 5px auto !important;
+    }
+    .carousel-control-prev{
+        left:-20px;
+    }
+
+    .carousel-control-next{
+        right:-20px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        top:20px;
+    }
+    .res-padding{
+        padding:0 0;
+    }
+    .text-cart{
+        margin:0 !important
+    }
+    .cart-content h2{
+        font-size: 18px !important;
+    }
+
+    .text-cart .row{
+       margin-top:0 !important;
+    }
+    .cart-image img{
+        height:80% !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .text-cart{
+        margin-top:0 !important
+    }
+  }
+ @media only screen and (max-width: 576px) {
+    
+    .carousel-control-prev{
+        left:-10px;
+    }
+
+    .carousel-control-next{
+        right:-10px;
+    }
+    .shoe{
+        height:200px !important;
+        width:350px !important
+     }
+  }
+
+
+
+
+
